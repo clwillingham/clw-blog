@@ -1,79 +1,43 @@
-<!--<script type="text/x-handlebars">-->
-    <!---->
-<!--</script>-->
-<div id="page" class="hfeed site">
-    <div id="masthead-wrap" >
-        <header id="masthead" class="site-header" role="banner">
-            <hgroup>
-                <h1 class="site-title">
-                    <a href="http://clwillingham.wordpress.com/" title="Chris's Programs and Projects" rel="home">Chris's Programs and Projects</a>
-                </h1>
-                <h2 class="site-description">description</h2>
-            </hgroup>
-            <nav role="navigation" class="site-navigation main-navigation">
-                <h1 class="assistive-text">Menu</h1>
-                <div class="assistive-text skip-link">
-                    <a href="#content" title="Skip to content">Skip to content</a>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li class="current_page_item"><a href="http://clwillingham.wordpress.com/" title="Home">Home</a></li>
-                        <li class="page_item page-item-68"><a href="http://clwillingham.wordpress.com/blog/">Blog</a></li>
-                        <li class="page_item page-item-76"><a href="http://clwillingham.wordpress.com/contact/">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="clearfix"></div>
-            </nav>
-        </header>
-    </div>
-    <div id="main" class="site-main">
-        <div id="primary" class="content-area">
-            <div class="hentry-wrap">
-                <article id="post" class="page type-page status-publish hentry tag-announcement tag-panache">
-                    <header class="entry-header">
-                        <h1 class="entry-title">Title</h1>
-                    </header>
-
-                    <div class="entry-content">
-                        <p><strong>Introduction</strong></p>
-                        <p><a href="http://clwillingham.files.wordpress.com/2010/02/portrait.jpg"><img class="size-medium wp-image-74 alignleft" title="portrait" src="http://clwillingham.files.wordpress.com/2010/02/portrait.jpg?w=131&amp;h=180" alt="" width="131" height="180"></a>My name is Chris Willingham. I am interested in Robotics, computer Science, CAD Design, and pretty much anything that has to do with technology. Over the past few years I have participated in <a href="http://www.teamducttape.com/">Team Duct Tape</a>, a world class First Tech Challenge Robotics team. I have also taught myself a variety of programming languages, ranging from Java to C/C++ and Python.&nbsp; I have contributed to several open source communities including JMonkeyEngine and Cosmos (C# Open Source Managed Operating System). I’ve even started some projects of my own such as the SkypeBot, and the OSDK (Operating System Development Kit). Last summer, I interned at AnyBots (A Telepresence Robotics Company in Mountain View California). You can get more details on my (rather life changing) experiences on this internship by looking at the AnyBots Internship presentation in this portfolio. The contents of this Portfolio contain a variety of my work, ranging from CAD Design to engineering notebook entries on the design process for programming and building robots. Below are some links to various other projects I have worked on or created. Please note that some of the projects have been temporarily frozen until I have the time to work on them again.</p>
-                        <p>You can get my full Portfolio <a onclick="return mugicPopWin(this,event);" oncontextmenu="mugicRightClick(this);" title="Here" href="http://dl.dropbox.com/u/5171147/Portfolio.pdf">Here</a>.</p>
-                        <p><strong>Links</strong></p>
-                        <p><strong>FTC Templates</strong></p>
-                        <p>FTC Templates is a template set I developed for Rookie FTC Teams looking to quickly start writing Autonomous Code that is both reusable and easy to understand. Most FTC Teams put all of their code straight into the Main function. This is not a very good way to write code and I’m looking to help teams move beyond that method, to using a variety of functions that can be reused year after year.</p>
-                        <p><a href="http://code.google.com/p/ftctemplates/">http://code.google.com/p/ftctemplates/</a></p>
-                        <p><strong>JME Game Console</strong></p>
-                        <p>The JME Game Console is a project developed to help JME Game Developers create a User friendly In-Game dropdown console that can be used to debug games in real-time using BeanShell Scripting. This can be enormously helpful with larger games, and it even allows you to execute code in real-time. This means you can actually test code in the game before putting it in the code. This project was originally created by DarkFrog (it’s just a screen name), but was later abandoned because he moved on to other projects. After about a year of inactivity several people asked for it to be updated to be compatible with the latest version of JME. I eventually ran across the project and updated it on my own to be compatible with JME 2.0. Now JME 3.0 is on its way and I need to update it again (which I will do very soon).</p>
-                        <p><a href="http://code.google.com/p/jme-game-console/">http://code.google.com/p/jme-game-console/</a></p>
-                        <p><strong>The Operating System Development Kit (OSDK)</strong></p>
-                        <p>The OSDK is a fully portable Development Kit for building simple operating systems. &nbsp;The project started when I found an outdated project for building operating systems using Visual Studio 2005. The project was very limited because it used a specialized outdated Bootloader and it could only hold a very small number of characters in memory. I liked the idea but I did not like the way it was done, so I rewrote the project to use the GRUB boot loader and I upgraded the project to work with Visual Studio 2008. The actual goal of the project now is to make it as simple as possible to write a small operating system.&nbsp; Unfortunately OS development at this scale is not practical for anything other than a hobby, but it’s still satisfying to say “I wrote an operating system from scratch”.</p>
-                        <p><a href="http://code.google.com/p/osdk/">http://code.google.com/p/osdk/</a></p>
-                        <p><strong>The SkypeBot</strong></p>
-                        <p>The SkypeBot is perhaps my largest project yet (and probably the coolest). The SkypeBot is a Skype Controlled Telepresence robot. This means that it can be controlled from anywhere around the world with Skype’s two way video communication system.&nbsp; The robot can either be controlled through a Silverlight client that connects to Skype using the Skype API allowing real-time control of the robot, or you can simply use Skype’s chat feature to control the robot using only Skype. You can get more details on the SkypeBot and my future plans for it in the SkypeBot folder in this portfolio.</p>
-                        <p><a href="http://sites.google.com/site/skypebot2000/">http://sites.google.com/site/skypebot2000/</a></p>
-                        <p><strong>Java Vex Driver (JVD) and Vex.net</strong></p>
-                        <p>Both of these projects are actually just some helper classes I wrote for the SkypeBot (for Java and .net framework), However I thought other people could benefit from the source code so I made it open source.&nbsp; All they do is allow you to more easily control a Vex robot from the computer. It allows you to programmatically control vex motors from an onboard netbook or laptop. I never added sensory input because all I had was switches, and the SkypeBot didn’t need sensors anyway.</p>
-                        <p><a href="http://sourceforge.net/projects/vexnet/">http://sourceforge.net/projects/vexnet/</a></p>
-                        <p><a href="http://sourceforge.net/projects/javavexdriver/">http://sourceforge.net/projects/javavexdriver/</a></p>
-                        <p><strong>MyLI4E.org</strong></p>
-                        <p>this is my latest project, and my first major website project. Learning Is For Everyone is a non-profit that provides educational resources and hosts various other educational groups and events. LI4E’s website on the other hand… was lacking a bit. They wanted more collaberation and sharing of ideas and resources as well, so i made a website for them using Buddypress and wordpress and a little bit of custom PHP coding checkout the website here:</p>
-                        <p><a href="http://www.myli4e.org/">http://www.myli4e.org/</a><a href="http://www.myli4e.org/"><br>
-                        </a></p>
-                        <p><strong>java-socket.io.client</strong></p>
-                        <p><strong></strong>This project was a library of code i started because i needed a java program to connect to Node.js, through <a href="http://socket.io">Socket.io</a>. The problem was that even though the protocol was public, no one bothered to write a client in java, so i wrote one myself. it doesn’t work that well yet, but its still capable of communicating between socket.io and java using websockets. the speed is although not practical for what i was thinking of using it for (controlling a robot), but still could be usefull for something.</p>
-                        <p><a href="https://github.com/clwillingham/java-socket.io.client">https://github.com/clwillingham/java-socket.io.client</a><a href="https://github.com/clwillingham/java-socket.io.client"><br>
-                        </a></p>
-                        <p><strong>Tinycore Scripted Remaster</strong></p>
-                        <p>This project was actually a failed attempt at another project which turned into something different and kinda cool, The idea originally was to develop an operating system geared torward Robotics. I am still working on that concept, but my original attempt was based off of Tinycore Linux. As the name suggests, it is a very tiny distro of linux, in fact, on its own, it is about 11mb. I loved it for its simplicity and speed, but unfortunately, it is fairly unstable when you start messing with it, and changing too much usually results in the window system crashing. This is why i kind of gave up on using it for the original project i was thinking of, but i did come up with a pretty cool scripted build system that let you package your own miniture Operating system based on Tinycore linux. Feel free to fork it on Github and turn it into something awesome</p>
-                        <p><a href="https://github.com/clwillingham/Tinycore-Scripted-Remaster">https://github.com/clwillingham/Tinycore-Scripted-Remaster</a></p>
-                        <p><strong>The NetBot</strong></p>
-                        <p>The NetBot is a generic open robot platform designed to be simple to modify to do whatever you want it to do. The goal of the robot is to be a cost efficient way for you to play with bigger robots. The main feature of the robot is the processor, which can be pretty much any kind of netbook or laptop you happen to have laying around the house.</p>
-                        <p><a href="http://networkbot.wordpress.com/">http://networkbot.wordpress.com/</a></p>
+<script type="text/x-handlebars">
+    <div id="page" class="hfeed site">
+        <div id="masthead-wrap" >
+            <header id="masthead" class="site-header" role="banner">
+                <hgroup>
+                    <h1 class="site-title">
+                        <a href="/" title="{{title}}" rel="home">{{title}}</a>
+                    </h1>
+                    <h2 class="site-description">{{description}}</h2>
+                </hgroup>
+                <nav role="navigation" class="site-navigation main-navigation">
+                    <h1 class="assistive-text">Menu</h1>
+                    <div class="assistive-text skip-link">
+                        <a href="#content" title="Skip to content">Skip to content</a>
                     </div>
-                </article>
+                    <div class="menu">
+                        <ul>
+                            <li class="current_page_item"><a href="/" title="Home">Home</a></li>
+                            <li class="page_item page-item-68"><a href="http://clwillingham.wordpress.com/blog/">Blog</a></li>
+                            <li class="page_item page-item-76"><a href="http://clwillingham.wordpress.com/contact/">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </nav>
+            </header>
+        </div>
+        <div id="main" class="site-main">
+            <div id="primary" class="content-area">
+                <div class="hentry-wrap">
+                    {{outlet}}
+                </div>
             </div>
         </div>
     </div>
+</script>
 
-
-</div>
+<script type="text/x-handlebars" data-template-name="home">
+    <article class="post-2 page type-page status-publish hentry">
+        <header class="entry-header">
+            <h1 class="hentry-title">About</h1>
+        </header>
+    </article>
+</script>
