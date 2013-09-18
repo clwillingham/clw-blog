@@ -8,6 +8,13 @@
 
 App = Ember.Application.create();
 
-App.Router.map(function(){
-   this.resource('home', {path: '/'})
+App.store = DS.Store.create({
+    revision: 4,
+    adapter: 'DS.FixtureAdapter'
 });
+
+App.Router.map(function(){
+    this.resource('home', {path: '/'});
+    this.resource('page', {path: '/page/:page_id'})
+});
+
